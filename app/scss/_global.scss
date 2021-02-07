@@ -1,22 +1,49 @@
-html{
+html {
     box-sizing: border-box;
 }
 
 *,
 *::before,
-*::after{
+*::after {
     box-sizing: inherit;
 }
 
-a{
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+a {
     display: inline-block;
     text-decoration: none;
     color: #000;
 }
 
 ul,
-li{
+li {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+.container {
+    max-width: 1160px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.descr {
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 40px;
 }

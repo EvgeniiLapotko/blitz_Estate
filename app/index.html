@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/libs.min.css">
     <link rel="stylesheet" href="css/style.min.css">
     <title>Document</title>
@@ -11,6 +13,423 @@
 
 <body>
 
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <div class="header__inner">
+                    <div class="header__item-menu">
+                        <div class="header__item-burger">
+                            <div class="header__item-burger__row-1"></div>
+                            <div class="header__item-burger__row-2"></div>
+                            <div class="header__item-burger__row-3"></div>
+                        </div>
+                        <div class="header__item-text">
+                            Меню
+                        </div>
+                    </div>
+                    <div class="header__item-logo">
+                        <div class="header__item-img">
+                            <img src="images/logo.svg" alt="">
+                        </div>
+                        <div class="header__item-name">
+                            Продажа недвижимости в Москва-Сити
+                        </div>
+                    </div>
+                    <div class="header__item">
+                        <a href="tel:+74951991999" class="header__item-phone">+7 (495) 199-19-99</a>
+                        <a href="#" class="header__item-btn">Заказать звонок</a>
+                    </div>
+                </div>
+            </div>
+            <div class="header__bottom">
+                <h1>
+                    Агентство
+                    с международным
+                    именем Blitz Estate
+                </h1>
+                <p>
+                    Поможем продать, купить и арендовать недвижимость в Москве, районе Сити и области
+                </p>
+                <div class="header__stat">
+                    <div class="header__box">
+                        <div class="header__box-number">
+                            17
+                        </div>
+                        <div class="header__box-text">
+                            Работаем в 17 странах
+                        </div>
+                    </div>
+                    <div class="header__box">
+                        <div class="header__box-number">
+                            1963
+                        </div>
+                        <div class="header__box-text">
+                            Помогли 1963-м клиентам
+                        </div>
+                    </div>
+                    <div class="header__box">
+                        <div class="header__box-number">
+                            10
+                        </div>
+                        <div class="header__box-text">
+                            Лет на рынке недвижимости
+                        </div>
+                    </div>
+                </div>
+                <div class="header__gift">
+                    <div class="header__gift-img">
+                        <img src="images/butle.svg" alt="">
+                    </div>
+                    <div class="header__gift-text">
+                        Пройди тест и получи в подарок бутылку шампанского <span>Veuve Clicquot</span>
+                    </div>
+                </div>
+                <div class="header__btn-wrapper">
+                    <a href="#" class="header__btn">
+                        Подобрать недвижимость
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="test">
+        <div class="container">
+            <div class="title">
+                Пройдити тест из 5 вопросов
+
+            </div>
+            <div class="descr">
+                Мы подберём 20 покупателей готовых купить вашу недвижимость в течение 24 часов
+            </div>
+
+            <div class="test__inner">
+                <div class="test__item-test">
+                    <div class="test__item-title">
+                        Выберите местоположение объекта
+                    </div>
+                    <div class="test__item-map">
+                        <div class="test__map">
+                            <a href="#" class="test__map-img">
+                                <img src="images/Russian.png" alt="">
+                            </a>
+                            <div class="test__map-name">
+                                В России
+                            </div>
+                        </div>
+                        <div class="test__map">
+                            <a href="#" class="test__map-img">
+                                <img src="images/foreg.png" alt="">
+                            </a>
+                            <div class="test__map-name">
+                                За границей
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test__question">
+                        <div class="test__question-text">
+                            Вы ответили на: 0/5 вопросов
+                        </div>
+                        <div class="test__question-btn">
+                            <a href="#">Продолжить</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="test__item-check">
+                    <div class="test__item-text">
+                        Поможем Вам приобрести, продать или арендовать необходимую недвижимость
+                    </div>
+                    <div class="test__item-text">
+                        Продадим вашу недвижимость за 21 день или выкупим сами по стоимостьи в договоре
+                    </div>
+                    <div class="test__item-text">
+                        Забронируем понравившуюся квартиру и зафиксируем стоимость для вас на момент бронирования
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="card">
+        <div class="container">
+            <div class="title">
+                Наши услуги на международном рынке
+            </div>
+            <div class="grid card__inner">
+                <div class="span-row-2 card__item card__item-1">
+                    <div class="card__wrapper"></div>
+                    <div class="card__item-box">
+                        <div class="card__item-title">
+                            Жилая недвижимость
+                        </div>
+                        <div class="card__item-text">
+                            Сопровождение сделок по продаже, купли и аренде объектов недвижимости под ключ.
+                        </div>
+                        <a href="#" class="card__item-btn">
+                            Узнать больше
+                        </a>
+                    </div>
+                </div>
+                <div class="card__item card__item-2">
+                    <div class="card__wrapper"></div>
+                    <div class="card__item-box">
+                        <div class="card__item-title">
+                            Доходная недвижимость
+                        </div>
+                        <div class="card__item-text">
+                            Сопровождение сделок по продаже, купли и аренде объектов недвижимости под ключ.
+                        </div>
+                        <a href="#" class="card__item-btn">
+                            Узнать больше
+                        </a>
+                    </div>
+                </div>
+                <div class="card__item card__item-3">
+                    <div class="card__wrapper"></div>
+                    <div class="card__item-box">
+                        <div class="card__item-title">
+                            Инвестиционные операции
+                        </div>
+                        <div class="card__item-text">
+                            Сопровождение сделок по продаже, купли и аренде объектов недвижимости под ключ.
+                        </div>
+                        <a href="#" class="card__item-btn">
+                            Узнать больше
+                        </a>
+                    </div>
+                </div>
+                <div class="span-col-2 card__item card__item-4">
+                    <div class="card__wrapper"></div>
+                    <div class="card__item-box">
+                        <div class="card__item-title">
+                            Покупка яхт
+                        </div>
+                        <div class="card__item-text">
+                            Сопровождение сделок по продаже, купли и аренде объектов недвижимости под ключ.
+                        </div>
+                        <a href="#" class="card__item-btn">
+                            Узнать больше
+                        </a>
+                    </div>
+                </div>
+                <div class="span-col-2 card__item card__item-5">
+                    <div class="card__wrapper"></div>
+                    <div class="card__item-box">
+                        <div class="card__item-title">
+                            Доверительное управление
+                        </div>
+                        <div class="card__item-text">
+                            Сопровождение сделок по продаже, купли и аренде объектов недвижимости под ключ.
+                        </div>
+                        <a href="#" class="card__item-btn">
+                            Узнать больше
+                        </a>
+                    </div>
+                </div>
+                <div class="card__item card__item-6">
+                    <div class="card__wrapper"></div>
+                    <div class="card__item-box">
+                        <div class="card__item-title">
+                            Консьерж сервис
+                        </div>
+                        <div class="card__item-text">
+                            Сопровождение сделок по продаже, купли и аренде объектов недвижимости под ключ.
+                        </div>
+                        <a href="#" class="card__item-btn">
+                            Узнать больше
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="flat">
+        <div class="container">
+            <div class="title">
+                Выберите апартаменты в Москва-Сити
+
+            </div>
+            <div class="descr">
+                Мы включили в наш каталог все апартаменты доступные для покупки в Москва-Сити
+            </div>
+            <ul class="flat__filter">
+                <li><a href="#" class="flat__filter-link active">Показать все</a></li>
+                <li><a href="#" class="flat__filter-link">От 20-30 млн</a></li>
+                <li><a href="#" class="flat__filter-link">От 30-50 млн</a></li>
+                <li><a href="#" class="flat__filter-link">От 50-100 млн</a></li>
+                <li><a href="#" class="flat__filter-link">Более 100 млн</a></li>
+            </ul>
+            <div class="flat__inner">
+                <div class="flat__item">
+                    <div class="flat__item-img">
+                        <img src="images/flat-1.png" alt="">
+                    </div>
+                    <div class="flat__item-descr">
+                        <div class="flat__item-name">
+                            Апартаменты в «башне ОКО»
+                        </div>
+                        <div class="flat__item-lot">
+                            Лот № 4536
+                        </div>
+                        <div class="flat__item-box">
+                            <div class="flat__item-price">
+                                <div class="price">25 600 000 ₽</div>
+                                <div class="priceM2">365 714 ₽ за м²</div>
+                            </div>
+                            <div class="flat__item-area">
+                                <div class="area">Площадь 70 м²
+                                </div>
+                                <div class="flor">Этаж 52</div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="flat__item-btn">
+                        Назначить просмотр
+                    </a>
+                </div>
+                <div class="flat__item">
+                    <div class="flat__item-img">
+                        <img src="images/flat-1.png" alt="">
+                    </div>
+                    <div class="flat__item-descr">
+                        <div class="flat__item-name">
+                            Апартаменты в «башне ОКО»
+                        </div>
+                        <div class="flat__item-lot">
+                            Лот № 4536
+                        </div>
+                        <div class="flat__item-box">
+                            <div class="flat__item-price">
+                                <div class="price">25 600 000 ₽</div>
+                                <div class="priceM2">365 714 ₽ за м²</div>
+                            </div>
+                            <div class="flat__item-area">
+                                <div class="area">Площадь 70 м²
+                                </div>
+                                <div class="flor">Этаж 52</div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="flat__item-btn">
+                        Назначить просмотр
+                    </a>
+                </div>
+                <div class="flat__item">
+                    <div class="flat__item-img">
+                        <img src="images/flat-1.png" alt="">
+                    </div>
+                    <div class="flat__item-descr">
+                        <div class="flat__item-name">
+                            Апартаменты в «башне ОКО»
+                        </div>
+                        <div class="flat__item-lot">
+                            Лот № 4536
+                        </div>
+                        <div class="flat__item-box">
+                            <div class="flat__item-price">
+                                <div class="price">25 600 000 ₽</div>
+                                <div class="priceM2">365 714 ₽ за м²</div>
+                            </div>
+                            <div class="flat__item-area">
+                                <div class="area">Площадь 70 м²
+                                </div>
+                                <div class="flor">Этаж 52</div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="flat__item-btn">
+                        Назначить просмотр
+                    </a>
+                </div>
+                <div class="flat__item">
+                    <div class="flat__item-img">
+                        <img src="images/flat-1.png" alt="">
+                    </div>
+                    <div class="flat__item-descr">
+                        <div class="flat__item-name">
+                            Апартаменты в «башне ОКО»
+                        </div>
+                        <div class="flat__item-lot">
+                            Лот № 4536
+                        </div>
+                        <div class="flat__item-box">
+                            <div class="flat__item-price">
+                                <div class="price">25 600 000 ₽</div>
+                                <div class="priceM2">365 714 ₽ за м²</div>
+                            </div>
+                            <div class="flat__item-area">
+                                <div class="area">Площадь 70 м²
+                                </div>
+                                <div class="flor">Этаж 52</div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="flat__item-btn">
+                        Назначить просмотр
+                    </a>
+                </div>
+                <div class="flat__item">
+                    <div class="flat__item-img">
+                        <img src="images/flat-1.png" alt="">
+                    </div>
+                    <div class="flat__item-descr">
+                        <div class="flat__item-name">
+                            Апартаменты в «башне ОКО»
+                        </div>
+                        <div class="flat__item-lot">
+                            Лот № 4536
+                        </div>
+                        <div class="flat__item-box">
+                            <div class="flat__item-price">
+                                <div class="price">25 600 000 ₽</div>
+                                <div class="priceM2">365 714 ₽ за м²</div>
+                            </div>
+                            <div class="flat__item-area">
+                                <div class="area">Площадь 70 м²
+                                </div>
+                                <div class="flor">Этаж 52</div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="flat__item-btn">
+                        Назначить просмотр
+                    </a>
+                </div>
+                <div class="flat__item">
+                    <div class="flat__item-img">
+                        <img src="images/flat-1.png" alt="">
+                    </div>
+                    <div class="flat__item-descr">
+                        <div class="flat__item-name">
+                            Апартаменты в «башне ОКО»
+                        </div>
+                        <div class="flat__item-lot">
+                            Лот № 4536
+                        </div>
+                        <div class="flat__item-box">
+                            <div class="flat__item-price">
+                                <div class="price">25 600 000 ₽</div>
+                                <div class="priceM2">365 714 ₽ за м²</div>
+                            </div>
+                            <div class="flat__item-area">
+                                <div class="area">Площадь 70 м²
+                                </div>
+                                <div class="flor">Этаж 52</div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="flat__item-btn">
+                        Назначить просмотр
+                    </a>
+                </div>
+
+            </div>
+            <div class="flat__more">
+                <a class="flat__more-link" href="#">Показать еще</a>
+            </div>
+        </div>
+    </section>
 
     <script src="js/libs/libs.min.js"></script>
     <script src="js/main.min.js"></script>
